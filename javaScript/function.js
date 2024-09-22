@@ -20,11 +20,11 @@ function addToHistory(income, totalExpanses, balance) {
     const div = document.createElement('div');
     div.className = "bg-white p-3 rounded-md border-l-2 border-indigo-500";
     div.innerHTML = `
-    <P class ="text-sm text-gray-500 font-medium">Sl-${serialCount};
-    <p class="text-sm text-gray-500">Date: ${new Date().toLocaleTimeString()}</p>
-    <p class="text-sm font-bold text-gray-700">income: $ ${formatCurrency(income)} </p>
-    <p class="text-sm text-gray-700">expense: $ ${formatCurrency(totalExpanses)} </p>
-    <p class="text-sm text-gray-700">Balance: $ ${formatCurrency(balance)} </p>
+    <P class ="text-[5px] sm:text-sm text-gray-500 font-medium">Sl-${serialCount};
+    <p class="text-[5px] sm:text-sm text-gray-500">Date: ${new Date().toLocaleTimeString()}</p>
+    <p class="text-[5px] sm:text-sm font-bold text-gray-700">income: $ ${formatCurrency(income)} </p>
+    <p class="text-[5px] sm:text-sm text-gray-700">expense: $ ${formatCurrency(totalExpanses)} </p>
+    <p class="text-[5px] sm:text-sm text-gray-700">Balance: $ ${formatCurrency(balance)} </p>
     
     `;
 
